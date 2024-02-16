@@ -1,0 +1,5 @@
+1. npm i react-hot-toast react-icons sass firebase react-router-dom react-table
+
+2. npm i -D @types/react-table
+
+3. npm i chart.js react-chartjs-2

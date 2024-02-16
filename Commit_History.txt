@@ -1,0 +1,5 @@
+1. Add Following :
+    - Basic Setup 
+    - Install Basic Packages 
+    - Initial Setup react-router-dom
+    - Import Admin Dashboard file that we developed in React-TS-Admin-Dashboard Project (Working Fine)
