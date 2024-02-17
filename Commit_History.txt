@@ -6,3 +6,7 @@
 
 2. Add Following :
     - Component : Header design
+
+3. Add Following :
+    - Add Custom Hook 
+        - Purpose : Dialog Box close when we click outside of dialog box.

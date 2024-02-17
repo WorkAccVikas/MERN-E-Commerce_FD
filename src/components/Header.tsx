@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   FaSearch,
   FaShoppingBag,
@@ -7,15 +7,26 @@ import {
   FaUser,
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import useOutsideClick from "../hooks/useOutsideClick.hook";
 
 const user = { _id: "1", role: "admin" };
 
 function Header() {
+  console.log("Header");
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const logoutHandler = () => {
     setIsOpen(false);
   };
+
+  const handleClickOutside = () => {
+    // console.log("Outside click");
+    if (isOpen) setIsOpen(false);
+  };
+
+  const ref = useOutsideClick(
+    handleClickOutside
+  ) as React.LegacyRef<HTMLButtonElement>;
 
   return (
     <nav className="header">
@@ -30,7 +41,7 @@ function Header() {
       </Link>
       {user?._id ? (
         <>
-          <button onClick={() => setIsOpen((prev) => !prev)}>
+          <button onClick={() => setIsOpen((prev) => !prev)} ref={ref}>
             <FaUser />
           </button>
           <dialog open={isOpen}>
