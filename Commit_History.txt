@@ -8,5 +8,9 @@
     - Component : Header design
 
 3. Add Following :
-    - Add Custom Hook 
-        - Purpose : Dialog Box close when we click outside of dialog box.
+    - Add Custom Hook useOutsideClick
+        - Purpose : Dialog Box close when we click outside of dialog box in Header Component
+
+4. Add Following :
+    - Home Page : 
+        - Design Product Card Component
