@@ -14,3 +14,11 @@
 4. Add Following :
     - Home Page : 
         - Design Product Card Component
+
+5. Add Following :
+    - Add hide scrollbar mixin
+    - Add 
+        - CartItem Component
+    - Design 
+        - Cart Page 
+        - CartItem Component

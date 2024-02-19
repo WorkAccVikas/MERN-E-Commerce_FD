@@ -26,16 +26,23 @@ body {
 .red {
   color: red;
 }
+
 .purple {
   color: rgb(47, 0, 255);
 }
+
 .green {
   color: rgb(0, 195, 0);
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 @import "admin-styles/mixin";
 
 @import "home";
+@import "cart";
 
 @import "admin-styles/dashboard";
 @import "admin-styles/products";
