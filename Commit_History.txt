@@ -22,3 +22,9 @@
     - Design 
         - Cart Page 
         - CartItem Component
+
+6. Add Following :
+    - Add 
+        - Shipping Page 
+    - Design 
+        - Shipping Page

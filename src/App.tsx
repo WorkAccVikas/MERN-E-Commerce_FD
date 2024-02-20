@@ -3,10 +3,13 @@ import { lazy, Suspense } from "react";
 import Loader from "./components/Loader";
 import Header from "./components/Header";
 
-// Pages Routes Importing
+// Public Routes Importing
 const Home = lazy(() => import("./pages/Home"));
 const Search = lazy(() => import("./pages/Search"));
 const Cart = lazy(() => import("./pages/Cart"));
+
+// Logged In User Routes Importing
+const Shipping = lazy(() => import("./pages/Shipping"));
 
 // Admin Routes Importing
 const Dashboard = lazy(() => import("./pages/admin/dashboard"));
@@ -34,9 +37,14 @@ function App() {
       <Header />
       <Suspense fallback={<Loader />}>
         <Routes>
+          {/* Public Routes */}
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
           <Route path="/cart" element={<Cart />} />
+          {/* Logged In User Routes */}
+          <Route>
+            <Route path="/shipping" element={<Shipping />} />
+          </Route>
           {/* Admin Routes */}
           <Route
           // element={
