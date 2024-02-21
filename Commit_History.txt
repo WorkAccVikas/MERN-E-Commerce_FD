@@ -28,3 +28,9 @@
         - Shipping Page 
     - Design 
         - Shipping Page
+
+7. Add Following :
+    - Add 
+        - Login Page 
+    - Design 
+        - Login Page
