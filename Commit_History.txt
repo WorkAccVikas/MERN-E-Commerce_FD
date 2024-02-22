@@ -34,3 +34,6 @@
         - Login Page 
     - Design 
         - Login Page
+
+8. Add Following :
+    - Add & Design Search Page
