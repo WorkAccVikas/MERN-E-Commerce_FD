@@ -9,8 +9,8 @@ import {
 import { Link } from "react-router-dom";
 import useOutsideClick from "../hooks/useOutsideClick.hook";
 
-// const user = { _id: "1", role: "admin" };
-const user = { _id: "", role: "" };
+const user = { _id: "1", role: "admin" };
+// const user = { _id: "", role: "" };
 
 function Header() {
   console.log("Header");
