@@ -24,7 +24,7 @@ function Home() {
           price={70000}
           stock={156}
           handler={addToCartHandler}
-          photo="https://m.media-amazon.com/images/W/MEDIAX_849526-T2/images/I/719C6bJv8jL._SX679_.jpg"
+          photo="https://i.gadgets360cdn.com/products/large/macbook-air-m1-2020-db-800x600-1607604365.png"
         /> */}
 
         {Array.from({ length: 5 }, (_, i) => i).map((item) => (
@@ -35,7 +35,7 @@ function Home() {
             price={70000}
             stock={156}
             handler={addToCartHandler}
-            photo="https://m.media-amazon.com/images/W/MEDIAX_849526-T2/images/I/719C6bJv8jL._SX679_.jpg"
+            photo="https://i.gadgets360cdn.com/products/large/macbook-air-m1-2020-db-800x600-1607604365.png"
           />
         ))}
       </main>

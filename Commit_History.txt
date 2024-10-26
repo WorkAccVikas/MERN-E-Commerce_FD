@@ -41,3 +41,6 @@
 9. Add Following :
     - Add & Design Orders Page 
     - Add OrderDetails Page (Design pending)
+
+10. Add Following :
+    - Only Dummy Image URL Change
